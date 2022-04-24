@@ -1,0 +1,13 @@
+.Wrapper {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: red;
+}
+
+.Row-wrapper {
+  flex-direction: row;
+}

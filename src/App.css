@@ -11,7 +11,8 @@
 
 .App-header {
   background-color: white;
-  padding-top: 40px;
+  padding-top: 8px;
+  padding-bottom: 40px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -88,9 +89,12 @@
 .Node {
   width: 50px;
   height: 50px;
-  border-radius: 25px;
-  background-color: white;
-  border: 1px solid black;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 4px;
+  top: 5px;
 }
 
 .Description {
@@ -98,6 +102,14 @@
   font-family: monospace;
   font-weight: 600;
   font-size: 16px;
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-self: center;
 }
 
 @keyframes App-logo-spin {
